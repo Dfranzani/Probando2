@@ -1,12 +1,10 @@
 import { defineConfig } from 'astro/config';
-//import vercel from "@astrojs/vercel/serverless";
+import { adapter as staticAdapter } from '@astrojs/adapter-static';
 
-// https://astro.build/config
 export default defineConfig({
   site: 'https://dfranzani.github.io',
-  //base: '/astro-cv-minimalista'
-  //output: 'static',
-  //outDir: './docs',
-  //output: "server",
-  //adapter: vercel()
+  output: "dist",
+  adapter: staticAdapter({
+    pages: 'dist'
+  })
 });
