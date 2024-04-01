@@ -4,7 +4,7 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://dfranzani.github.io',
-  base: '/astro-cv-minimalista'
+  //base: '/astro-cv-minimalista'
   //output: 'static',
   //outDir: './docs',
   //output: "server",
