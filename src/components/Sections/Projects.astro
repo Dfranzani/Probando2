@@ -1,0 +1,76 @@
+---
+import Section from "@/components/Section.astro";
+
+import { projects } from "@cv";
+---
+
+<Section title="Proyectos">
+  <ul>
+    {
+      projects.map(({ url, description, highlights, name, isActive }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <a href={url} title={`Ver el proyecto ${name}`}>
+                  <h3>{name}</h3>
+                </a>
+                <p>{description}</p>
+              </header>
+              <footer>
+                {highlights.map((highlight) => {
+                  return <span>{highlight}</span>;
+                })}
+              </footer>
+            </article>
+          </li>
+        );
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+  }
+
+  article {
+    border-radius: 8px;
+    border: 1px solid rgb(184, 184, 184);
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    height: 100%;
+    justify-content: space-between;
+  }
+
+  article a { 
+    color: #111;
+  }
+
+  article a h3 {
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+
+  article a:hover {
+    text-decoration: underline;
+  }  
+
+  article p {
+    font-size: 0.75rem;
+    line-height: 1.2rem;
+    margin-bottom: 4px;
+  }
+
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    font-size: 0.6rem;
+  }
+</style>

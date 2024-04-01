@@ -1,0 +1,222 @@
+{
+  "basics": {
+    "name": "Daniel Franzani",
+    "label": "Profesional Estadístico.",
+    "image": "/Yuni.jpeg",
+    "email": "dfranzani@gmail.com",
+    "phone": "+56962448359",
+    "url": "https://dfranzani.github.io/website/principal/home.html",
+    "summary": "+5 años de experiencia docente universitario y análisis de datos. Actualmente, soy académico de la Universidad Diego Portales, y divido mi tiempo en el desarrollo de sitios web estáticos para el apoyo de la docencia, y en el desarrollo de librerías de R para la ciencia de datos (por diversión). Soy admirador de Github, GNU-Linux (Ubuntu) y RStudio. ",
+    "location": {
+      "city": "Providencia, Santiago",
+      "countryCode": "ES",
+      "region": "Chile"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "dfranzani",
+        "url": "https://www.linkedin.com/in/dfranzani/"
+      },
+      {
+        "network": "GitHub",
+        "username": "dfranzani",
+        "url": "https://github.com/Dfranzani"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Universidad Diego Portales",
+      "position": "Académico",
+      "url": "",
+      "startDate": "2022-02-12",
+      "endDate": null,
+      "summary": "Académico de la Universidad Diego Portales, en escuela de Ingeniería Comercial, en el departamento de Matemática y Estadística. Docente de cursos de Estadística y Análisis de Datos. Desarrollo de sitios web estáticos para apoyo de la docencia. Desarrollo de librerías de R para la ciencia de datos.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Universidad Tecnológica Metropolitana",
+      "position": "Profesional Estadístico",
+      "url": "",
+      "startDate": "2020-11-01",
+      "endDate": "2022-11-01",
+      "summary": "Responsable experto del departamento en proyectos que van desde la automatización de reportes, consolidación de bases de datos relacionales, análisis de datos, hata la definición de indicadores de progresión académica. Colaboré en la construcción del primer Mecanismo de Alerta Académica Institucional enfocado en la detección de deserción estudiantil.",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "TecPar",
+      "position": "Científico de Datos",
+      "startDate": "2019-08-01",
+      "endDate": "2022-07-01",
+      "summary": "Participación en distintos proyectos, dentro de los cuales tuve la responsabilidad de elaboración de modelos de series temporales para la predicción de consumo de luz en hogares, de modelos de Aprendizaje automático para la detección de patrones de distintos índices de vegetación, y la consolidación de bases de datos mediante el uso de APIs y SQL.",
+      "highlights": ["Started the company"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Adolfo Ibáñez, Chile",
+      "url": "",
+      "area": "Magíster en Inteligencia Artificial",
+      "studyType": "",
+      "startDate": "2021-12-01",
+      "endDate": "2022-12-31",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Pontificia Universidad Católica de Chile, Chile",
+      "url": "",
+      "area": "Magíster en Estadística",
+      "studyType": "",
+      "startDate": "2018-12-01",
+      "endDate": "2019-12-31",
+      "score": "",
+      "courses": [""]
+    },
+    {
+      "institution": "Universidad Católica Silva Henríquez, Chile",
+      "url": "",
+      "area": "Licenciatura en Educación/Pedagogía en Matemática",
+      "studyType": "",
+      "startDate": "2012-12-01",
+      "endDate": "2017-12-31",
+      "score": "",
+      "courses": [""]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "R",
+      "level": "Avanzado",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "DuckDB",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Estadística I & II",
+      "isActive": true,
+      "description": "Documentos web estáticos para apoyo de la docencia de Estadística de pregrado.",
+      "highlights": ["Desarrollado con Bookdown, HTML, CSS y R"],
+      "url": "https://dfranzani.github.io/Estadistica_I/"
+    },
+    {
+      "name": "MtrGLM",
+      "isActive": true,
+      "description": "Librería de R para el calculo de métricas de modelos lineales generalizados con variable respuesta dicotómica.",
+      "highlights": [
+        "Desarrollado con R"
+      ],
+      "url": "https://github.com/Dfranzani/MtrGLM"
+    },
+    {
+      "name": "Website",
+      "isActive": true,
+      "description": "Sitio web personal para la divulgación de estadística con el uso de R.",
+      "highlights": ["Desarrollado con Quarto y R"],
+      "url": "https://dfranzani.github.io/website/principal/home.html"
+    }
+  ]
+}
