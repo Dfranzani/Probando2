@@ -4,6 +4,8 @@ import vercel from "@astrojs/vercel/serverless";
 // https://astro.build/config
 export default defineConfig({
   site: 'https://dfranzani.github.io',
-  output: "server",
-  adapter: vercel()
+  output: 'static',
+  outDir: './docs',
+  //output: "server",
+  //adapter: vercel()
 });
