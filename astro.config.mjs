@@ -5,6 +5,6 @@ import { defineConfig } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://dfranzani.github.io',
-//  output: "server",
-//  adapter: vercel()
+  output: "server",
+  adapter: vercel()
 });
