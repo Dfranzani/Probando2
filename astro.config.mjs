@@ -3,7 +3,7 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://dfranzani.github.io',
+  site: 'https://dfranzani.github.io/astro-cv-minimalista/',
   output: 'static',
   outDir: './docs',
   //output: "server",
