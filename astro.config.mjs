@@ -2,5 +2,5 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://dfranzani.github.io',
-  base: "/probando2",
+  base: "/astro-simple-cv",
 });
